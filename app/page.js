@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#606060] to-[#F7EBD1] font-[family-name:var(--font-geist-sans)] ">
+    <div className="min-h-screen bg-gradient-to-br from-[#eeb05e] to-[#F7EBD1] font-[family-name:var(--font-geist-sans)] ">
       <div className="flex justify-center ">
         <div className="flex flex-wrap md:flex-nowrap justify-between items-center bg-white rounded-2xl shadow-md px-4 md:px-6 py-3 w-full max-w-[1000px] mt-6 md:mt-10 gap-4 mx-2">
           <Image
@@ -32,10 +32,10 @@ export default function Home() {
           </div>
           {/* Desktop login buttons */}
           <div className="hidden md:flex gap-4">
-            <button className="bg-transparent text-[#B62619] font-bold">
+            <button className="bg-transparent text-[#eeb05e] font-bold">
               Login
             </button>
-            <button className="bg-black rounded-2xl font-semibold px-4 py-2 text-white">
+            <button className="bg-[#eeb05e] rounded-2xl font-semibold px-4 py-2 text-black">
               Join Borderless
             </button>
           </div>
@@ -62,10 +62,10 @@ export default function Home() {
       </div>
       <div className="flex flex-col w-full justify-center items-center">
         <div className="flex flex-col justify-between mt-20 max-w-[600px] text-center">
-          <h1 className="text-6xl text-[#F7EBD1] font-bold ">
+          <h1 className="text-6xl text-black font-bold ">
             USD Banking <span className="text-black">without borders</span>
           </h1>
-          <p className="text-lg text-[#F7EBD1]">
+          <p className="text-lg text-black">
             Open a US-based dollar account in your name to receive USD payments.
           </p>
         </div>
@@ -175,7 +175,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-[#FAFAFA] flex flex-wrap justify-between px-10  pt-10">
-        <div className="flex-1  flex flex-col gap-2 min-w-150 pl-20">
+        <div className="flex-1  flex flex-col gap-2 min-w-150 pl-2 sm:pl-10 md:pl-20 pr-20">
           <div className="bg-[#F7EBD1] w-fit rounded-md">
             <h4 className="text-[#c79220] p-2">Frequently asked questions</h4>
           </div>
