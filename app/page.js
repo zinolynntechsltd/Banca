@@ -63,7 +63,7 @@ export default function Home() {
       <div className="flex flex-col w-full justify-center items-center">
         <div className="flex flex-col justify-between mt-20 max-w-[600px] text-center">
           <h1 className="text-6xl text-black font-bold ">
-            USD Banking <span className="text-black">without borders</span>
+            Global USD Banking <span className="text-black">made easy</span>
           </h1>
           <p className="text-lg text-black">
             Open a US-based dollar account in your name to receive USD payments.
