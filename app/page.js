@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#eeb05e] to-[#F7EBD1] font-[family-name:var(--font-geist-sans)] ">
       <div className="flex justify-center ">
-        <div className="flex flex-wrap md:flex-nowrap justify-between items-center bg-white rounded-2xl shadow-md px-4 md:px-6 py-3 w-full max-w-[1000px] mt-6 md:mt-10 gap-4 mx-2">
+        <div className="flex flex-nowrap justify-between items-center bg-white rounded-2xl shadow-md px-4 md:px-6 py-3 w-full max-w-[1000px] mt-6 md:mt-10 gap-4 mx-2 sm:gap-3 md:gap-4  overflow-x-auto">
           <Image
             src="/banca.png"
             alt="Banca logo"
