@@ -179,7 +179,7 @@ export default function Home() {
           <div className="bg-[#F7EBD1] w-fit rounded-md">
             <h4 className="text-[#c79220] p-2">Frequently asked questions</h4>
           </div>
-          <h2 className="text-3xl font-bold max-w-150 min-w-80 text-black">
+          <h2 className="text-3xl sm:text-5xl  font-bold max-w-150 min-w-80 text-black">
             Got questions? we got answers!
           </h2>
           <p className="break-words whitespace-normal text-black ">
