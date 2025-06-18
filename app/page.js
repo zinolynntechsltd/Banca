@@ -17,16 +17,16 @@ export default function Home() {
             className="w-12 h-8 sm:w-19 sm:h-13 object-fill"
           />
           <div className="flex flex-wrap md:flex-nowrap gap-2 sm:gap-4 md:gap-6 justify-center md:justify-start">
-            <button className="bg-transparent text-black font-semibold hover:underline text-sm sm:text-base">
+            <button className="bg-transparent text-black font-semibold hover:underline text-xs sm:text-base">
               Home
             </button>
-            <button className="bg-transparent text-black font-semibold hover:underline text-sm sm:text-base">
+            <button className="bg-transparent text-black font-semibold hover:underline text-xs sm:text-base">
               Features
             </button>
-            <button className="bg-transparent text-black font-semibold hover:underline text-sm sm:text-base">
+            <button className="bg-transparent text-black font-semibold hover:underline text-xs sm:text-base">
               Pricing
             </button>
-            <button className="bg-transparent text-black font-semibold hover:underline text-sm sm:text-base">
+            <button className="bg-transparent text-black font-semibold hover:underline text-xs sm:text-base">
               Help
             </button>
           </div>
