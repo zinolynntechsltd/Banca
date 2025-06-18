@@ -175,12 +175,12 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-[#FAFAFA] flex flex-wrap justify-between px-10  pt-10">
-        <div className="flex-1  flex flex-col gap-2 min-w-150 pl-2 sm:pl-10 md:pl-20 pr-20">
+        <div className="flex-1  flex flex-col gap-2  justify-center">
           <div className="bg-[#F7EBD1] w-fit rounded-md">
             <h4 className="text-[#c79220] p-2">Frequently asked questions</h4>
           </div>
           <h2 className="text-5xl font-bold max-w-150 min-w-100 text-black">
-            Got questions ? we got answers!
+            Got questions? we got answers!
           </h2>
           <p className="max-w-150 min-w-100 text-black">
             Feel free to reach out to us if you have more questions for us
@@ -212,7 +212,7 @@ export default function Home() {
               height={15}
             />
           </div>
-          <div className="flex justify-between p-2">
+          <div className="flex  justify-between p-2">
             <p className="font-semibold text-lg text-black">
               How fast is onboarding?
             </p>
