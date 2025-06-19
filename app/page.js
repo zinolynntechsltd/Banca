@@ -147,8 +147,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-[#FAFAFA] flex flex-wrap gap-10 justify-between px-10 mt-10 pt-10">
-        <div className="flex-1 flex justify-center items-center">
-          {" "}
+        <div className="flex-1 hidden sm:flex justify-center items-center">
           <Image
             src="/Mockup.svg" // Replace with your actual path
             alt="Mockup"
@@ -157,7 +156,7 @@ export default function Home() {
             className="object-cover"
           />
         </div>
-        <div className="flex-1 flex flex-col gap-4 justify-start pt-6">
+        <div className="flex-1 flex flex-col gap-4 justify-start pt-6 ">
           <div className="bg-[#F7EBD1] w-fit rounded-md">
             <h4 className="text-[#c79220] p-2">Start receiving money</h4>
           </div>
